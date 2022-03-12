@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Delete_Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/twofingerId"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/custom_layout_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/twofinger_profile"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/two_finger_photo"
+            app:civ_border_color="#FFFFFF"
+
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:includeFontPadding="false"
+            android:text="Five Fingers"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/threefingerId"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/custom_layout_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twofingerId"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/threefinger_profile"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/three_finger_photo"
+
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:includeFontPadding="false"
+            android:text="Five Fingers"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fourfingerId"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/custom_layout_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threefingerId"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fourefinger_profile"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/four_finger_photo"
+            app:civ_border_color="#FFFFFF"
+
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:includeFontPadding="false"
+            android:text="Four Fingers"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fivefingerId"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/custom_layout_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourfingerId"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fivefinger_profile"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/five_fingers_photo1"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:includeFontPadding="false"
+            android:text="Five Fingers"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

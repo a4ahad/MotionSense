@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "610422535770",
+    "project_id": "sense-a1f5b",
+    "storage_bucket": "sense-a1f5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610422535770:android:b04c1491805f45fc6f4a63",
+        "android_client_info": {
+          "package_name": "com.leadiing.isense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610422535770-9k1j253ss6ktqtd273jsq5kc2t32nf8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNbXniNDMQXy-3CihBPEmbUjtU4j34S9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610422535770-9k1j253ss6ktqtd273jsq5kc2t32nf8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
