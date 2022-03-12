@@ -1,2 +1,2 @@
-# MotionSense
-Control the android with air gesture
+# iSense
+Ai features in android.
